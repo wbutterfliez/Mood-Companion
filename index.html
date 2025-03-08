@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mood Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="page">
+        <div class="mood">
+            <div class="moodtxt">
+                <h3>How do I feel?</h3>
+            </div>
+            <div class="moodbtns">
+                <button>
+                    <i class="fa-solid fa-face-grin-stars" style="color: #FFD43B;"></i> <br>
+                    Happy
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-kiss-wink-heart" style="color: #fb68b4;"></i> <br>
+                    Loved
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-tired" style="color: #616161;"></i> <br>
+                    Tired
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-grin-tongue-wink" style="color: #fe8839;"></i> <br>
+                    Playful
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-grimace" style="color: #603bce;"></i> <br>
+                    Anxious
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-angry" style="color: #ff0000;"></i> <br>
+                    Angry
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-dizzy" style="color: #6fc669;"></i> <br>
+                    Sick
+                </button>
+                <button>
+                    <i class="fa-solid fa-face-sad-cry" style="color: #008efa;"></i> <br>
+                    Sad
+                </button>
+            </div>
+        </div>
+        <div class="div">
+            <div class="journal">
+                <div class="journaltxt">
+                    <h3>What's on my mind?</h3>
+                </div>
+                <div class="journalinput">
+                    <textarea name="journal" id="journal" cols="80" rows="30" placeholder="My mind is saying..."></textarea>
+                </div>
+                <div class="journalbtn">
+                    <button>Save</button>
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="playlistbtn">
+                    <button id="authorizeSpotify">Generate Mood-Based Playlist</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
